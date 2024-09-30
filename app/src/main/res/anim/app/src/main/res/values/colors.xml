@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f4631a</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#646c6467</color>
+    <color name="activedots">#fffafa</color>
+    <color name="inactivedots">#83878b</color>
+    <color name="verteau">#f4631a</color>
+    <color name="ratingactive">#ffca28</color>
+    <color name="ratingdefault">#afadac</color>
+</resources>

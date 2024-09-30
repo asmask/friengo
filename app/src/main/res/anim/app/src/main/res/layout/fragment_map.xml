@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:background="@color/activedots"
+             tools:context="com.example.asus.friengo.MapFragment">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="117dp"
+        app:srcCompat="@drawable/groupe74"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hi, nice to meet you"
+        android:textColor="#060606"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Chose your location to start"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+
+        android:selectAllOnFocus="false"
+        android:linksClickable="false"
+        android:autoLink="all"
+
+        android:textColor="#060606"
+        android:text="@string/manually_location"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/txt"
+        android:background="@drawable/bt_location"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

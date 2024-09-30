@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "194531025763",
+    "firebase_url": "https://freingo-749be.firebaseio.com",
+    "project_id": "freingo-749be",
+    "storage_bucket": "freingo-749be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194531025763:android:3228190370bf96a1",
+        "android_client_info": {
+          "package_name": "com.example.asus.freingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194531025763-pbrcnpovm26sbqebk2153i1dct74amvt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.freingo",
+            "certificate_hash": "abd5ce9d5f5a5b1f7eaef5f80c2ba79f6dc63e77"
+          }
+        },
+        {
+          "client_id": "194531025763-ept6ki4h2m9oipu3cm4s7bstj4vpp37m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi2BA_qDDYTnvGTaCTjZPL1bmc5h3Cf9Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194531025763-ept6ki4h2m9oipu3cm4s7bstj4vpp37m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

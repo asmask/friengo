@@ -1,0 +1,92 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="70dp"
+             tools:context="com.example.asus.friengo.ManualyMapFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="31dp"
+                android:text="Set the radius of the distance"
+                android:textColor="#000"/>
+
+            <SeekBar
+                android:id="@+id/seekBar4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_below="@+id/textView11"
+                android:layout_marginTop="31dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/checkBox"
+                android:layout_below="@+id/seekBar4"
+                android:layout_marginTop="40dp"
+                android:text="Select your destination"
+                android:textColor="#000"/>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/seekBar4"
+                android:layout_below="@+id/textView12"
+                android:layout_marginTop="20dp"
+                android:text="Restaurant"/>
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/checkBox"
+                android:layout_below="@+id/checkBox"
+                android:layout_marginTop="7dp"
+                android:text="Coffe shop"/>
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/checkBox2"
+                android:layout_below="@+id/checkBox2"
+                android:layout_marginTop="7dp"
+                android:text="Lounge"/>
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/checkBox3"
+                android:layout_below="@+id/checkBox3"
+                android:layout_marginTop="7dp"
+                android:text="Others"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/checkBox4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/round_button"
+                android:text="Search"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/activedots"/>
+
+        </RelativeLayout>
+</ScrollView>
+

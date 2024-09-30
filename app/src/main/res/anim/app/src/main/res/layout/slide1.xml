@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/blueviolet"
+    android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="s1.json"
+        android:id="@+id/lottieAnimationView"
+        app:lottie_loop="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:textColor="@color/activedots"
+        android:textSize="35dp"
+        android:text="Find The Best Place"
+        android:gravity="center|center_horizontal"
+        android:layout_below="@+id/lottieAnimationView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/activedots"
+        android:gravity="center|center_horizontal"
+        android:text="We make it simple to find the best place to go out with your friends according to your choice ."
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        />
+</RelativeLayout>

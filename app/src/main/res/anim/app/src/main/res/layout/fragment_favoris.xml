@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.asus.friengo.FavorisFragment">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="101dp"
+                android:text="Restaurant"
+                android:textColor="@color/verteau"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="25dp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView13"
+                android:layout_alignBottom="@+id/textView13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:text="View all"
+                android:textColor="@color/verteau"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="25dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/item_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_below="@+id/textView13"
+                android:layout_marginTop="24dp"
+                android:clipToPadding="false"
+                android:paddingRight="250dp"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="25dp"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/item_place"
+                android:layout_below="@+id/item_place"
+                android:layout_marginTop="32dp"
+                android:textColor="@color/verteau"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="Coffe shop"/>
+
+            <TextView
+                android:textColor="@color/verteau"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_alignTop="@+id/textView19"
+                android:text="View all"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/item_coffe_place"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignStart="@+id/textView19"
+                android:layout_below="@+id/textView19"
+                android:layout_marginTop="23dp"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    android:id="@+id/loginlayout"
+    tools:context="com.example.asus.friengo.LoginActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:id="@+id/cardView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="297dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="FrienGo"
+                android:textColor="@color/activedots"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:hint="User name"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/activedots"
+                android:textColorHint="@color/activedots"/>
+
+            <EditText
+                android:id="@+id/pwd"
+                android:hint="Password"
+                android:textColor="@color/activedots"
+                android:textColorHint="@color/activedots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginTop="40dp" />
+            <Button
+                android:id="@+id/login"
+                android:background="@drawable/round_button"
+                android:layout_width="match_parent"
+                android:text="Sign in"
+                android:textColor="@color/activedots"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/fblogin"
+                android:background="@drawable/round_button"
+                android:layout_marginTop="5dp"
+                android:text="Connect with facebook"
+                android:textColor="@color/activedots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/frgpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Forgot your password ?"
+        android:textSize="18dp"
+        android:textColor="@color/activedots"
+        android:textStyle="bold"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an accout ? Sign up"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/activedots"
+        android:layout_below="@+id/frgpwd"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

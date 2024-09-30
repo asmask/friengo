@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        tools:context=".fragments.ActualityFragment">
+    <com.ramotion.expandingcollection.ECBackgroundSwitcherView
+        android:id="@+id/ec_bg_switcher_element"
+        android:foreground="@drawable/background_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="TOP RATED"
+        android:id="@+id/items_count_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:clipChildren="false"
+        android:orientation="horizontal"
+        android:textAppearance="@style/cardHeadTitle"/>
+
+    <com.ramotion.expandingcollection.ECPagerView
+        xmlns:ec="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ec_pager_element"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        ec:cardHeaderHeightExpanded="150dp"
+        ec:cardHeight="200dp"
+        ec:cardWidth="250dp" />
+</RelativeLayout>
+

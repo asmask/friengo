@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/beige"
+    android:layout_height="match_parent">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="17dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_fileName="s3.json"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lottieAnimationView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:textColor="@color/activedots"
+        android:textSize="35dp"
+        android:text="Money Option"
+        android:gravity="center|center_horizontal"
+        android:layout_below="@+id/lottieAnimationView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/activedots"
+        android:gravity="center|center_horizontal"
+        android:text="Put an amount of money and we will suggest to you what plac1es you can go and what food you can offer..."
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        />
+</RelativeLayout>

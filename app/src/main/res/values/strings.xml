@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FreinGo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signup">Don\'t have an accout ?<u>Sign up</u></string>
+    <string name="facebook_app_id">262547381310265</string>
+    <string name="fb_login_protocol_scheme">fb262547381310265</string>
+    <string name="facebook_client_token">ec6a35b043165f8a6d53be68017da4da</string>
+    <integer name="swing_anim_time">750</integer>
+    <string name="title_activity_maps">Map</string>
+    <!--<string name="host">http://192.168.1.9:2019/frienGo</string>-->
+    <string name="host">http://192.168.1.9:3000/</string>
+    <string name="title_activity_view_directions">Map</string>
+    <string name="Key">AIzaSyDGEofDFVvPOJoYd72sUDvkJXhej8iP5IA</string>
+    <string name="BKey">AIzaSyCNnT0tYYU9FUzc76y_SUuABFrWoJrQ4Bg</string>
+
+</resources>
